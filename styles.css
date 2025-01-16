@@ -1,0 +1,20 @@
+.site-footer {
+  background-color: #777777;
+}
+
+.site-header > .container > .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header > .container > .row > .col-8 {
+  display: flex;
+}
+
+.d-flex {
+  display: "flex";
+}
+
+#menu-legal-menu {
+  margin-bottom: 0;
+}

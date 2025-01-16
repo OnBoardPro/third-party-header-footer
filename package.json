@@ -1,0 +1,51 @@
+{
+  "name": "test-third-party-header-footer",
+  "version": "2.2.0",
+  "description": "Hooks to easily use Rails Action Cable in your React application",
+  "main": "./dist/index.umd.js",
+  "scripts": {
+    "build": "npm run clean && vite build",
+    "clean": "rimraf dist",
+    "publish-package": "npm run clean && npm ci && npm run build && npm publish",
+    "test": "npm run lint",
+    "lint": "eslint ./index.tsx --max-warnings 0"
+  },
+  "author": "Anton Frattaroli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onboardpro/third-party-header-footer.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.1 || ^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "9.17.0",
+    "@trivago/prettier-plugin-sort-imports": "5.2.0",
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@vitejs/plugin-react": "4.3.4",
+    "eslint": "9.17.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-react": "7.37.2",
+    "eslint-plugin-security": "3.0.1",
+    "jsdom": "25.0.1",
+    "prettier": "3.4.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "rimraf": "6.0.1",
+    "typescript": "5.7.2",
+    "typescript-eslint": "8.18.2",
+    "vite-plugin-css-injected-by-js": "3.5.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

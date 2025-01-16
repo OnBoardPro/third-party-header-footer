@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>header footer loader test</title>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <div
+      style="
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      "
+    >
+      <div id="header-to-load"></div>
+      <div style="height: 500px">Hello, this is the site content!</div>
+      <div id="footer-to-load"></div>
+    </div>
+    <script src="./dist/index.umd.js"></script>
+    <script>
+      window.OBP.loadHeader(document.getElementById("header-to-load"));
+      window.OBP.loadFooter(document.getElementById("footer-to-load"));
+    </script>
+  </body>
+</html>
