@@ -1,6 +1,6 @@
 {
   "name": "test-third-party-header-footer",
-  "version": "2.2.0",
+  "version": "2.2.3",
   "description": "Hooks to easily use Rails Action Cable in your React application",
   "main": "./dist/index.umd.js",
   "scripts": {
@@ -41,8 +41,7 @@
     "react-dom": "19.0.0",
     "rimraf": "6.0.1",
     "typescript": "5.7.3",
-    "typescript-eslint": "8.18.2",
-    "vite-plugin-css-injected-by-js": "3.5.2"
+    "typescript-eslint": "8.18.2"
   },
   "publishConfig": {
     "access": "public",
