@@ -21,8 +21,11 @@
     </div>
     <script src="./dist/index.umd.js"></script>
     <script>
-      window.OBP.loadHeader(document.getElementById("header-to-load"));
-      window.OBP.loadFooter(document.getElementById("footer-to-load"));
+      window.OBP.load(
+        document.getElementById("header-to-load"),
+        document.getElementById("footer-to-load"),
+        "nonce-ex"
+      );
     </script>
   </body>
 </html>
