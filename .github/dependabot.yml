@@ -14,7 +14,7 @@ updates:
       eslint:
         patterns:
           - "eslint"
-          - "@eslintjs/*"
+          - "@eslint/*"
       typescript-eslint:
         patterns:
           - "@typescript-eslint/*"
