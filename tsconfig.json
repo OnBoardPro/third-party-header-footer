@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
+    "target": "ES2023",
     "allowJs": true,
     "skipLibCheck": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "dist",
     "declaration": true,
     "strictNullChecks": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "rootDir": "."
   },
   "include": ["./index.tsx"]
 }
